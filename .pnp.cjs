@@ -36,7 +36,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/node", "npm:16.6.1"],
-            ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"]
+            ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"],
+            ["vm2", "npm:3.9.3"]
           ],
           "linkType": "SOFT",
         }]
@@ -56,7 +57,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["parse-hydration-data", "workspace:."],
             ["@types/node", "npm:16.6.1"],
-            ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"]
+            ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"],
+            ["vm2", "npm:3.9.3"]
           ],
           "linkType": "SOFT",
         }]
@@ -66,6 +68,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/typescript-patch-bb3b548ba1-bc2c4fdf0f.zip/node_modules/typescript/",
           "packageDependencies": [
             ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["vm2", [
+        ["npm:3.9.3", {
+          "packageLocation": "./.yarn/cache/vm2-npm-3.9.3-89b2f4dc3d-6367c213b2.zip/node_modules/vm2/",
+          "packageDependencies": [
+            ["vm2", "npm:3.9.3"]
           ],
           "linkType": "HARD",
         }]

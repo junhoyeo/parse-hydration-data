@@ -18,6 +18,7 @@ __metadata:
   dependencies:
     "@types/node": ^16.6.1
     typescript: ^4.3.5
+    vm2: ^3.9.3
   languageName: unknown
   linkType: soft
 
@@ -38,5 +39,14 @@ typescript@^4.3.5:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: bc2c4fdf0f1557fdafe4ef74848c72ebd9c8c60829568248f869121aea2bb20e16649a252431d0acb185ec118143be22bed73d08f64379557810d82756afedde
+  languageName: node
+  linkType: hard
+
+"vm2@npm:^3.9.3":
+  version: 3.9.3
+  resolution: "vm2@npm:3.9.3"
+  bin:
+    vm2: bin/vm2
+  checksum: 6367c213b2289c32831a10230dd16f31394c134fe269992071c49b26509c6e6145b379ff435c09cb28af8619c7a9f2f91e080d08d2f9a171b75869f3f34bc6ca
   languageName: node
   linkType: hard
