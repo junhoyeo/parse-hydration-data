@@ -19,6 +19,11 @@ __metadata:
     "@types/node": ^16.6.1
     typescript: ^4.3.5
     vm2: ^3.9.3
+  peerDependencies:
+    vm2: ^3.9.3
+  peerDependenciesMeta:
+    vm2:
+      optional: true
   languageName: unknown
   linkType: soft
 
