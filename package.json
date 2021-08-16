@@ -1,0 +1,8 @@
+{
+  "name": "parse-hydration-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/junhoyeo/parse-hydration-data",
+  "author": "Junho Yeo <hanaro0704@gmail.com>",
+  "license": "MIT"
+}
