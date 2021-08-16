@@ -1,7 +1,7 @@
 # parse-hydration-data
 [![NPM version](https://badgen.net/npm/v/parse-hydration-data)](https://www.npmjs.com/package/parse-hydration-data)
 
-🌲 Parse hydration data from an rendered [Next.js](https://github.com/vercel/next.js)/[Nuxt.js](https://github.com/nuxt/nuxt.js) app - ⚡️ for web scrapers
+🌲 Parse hydration data from rendered [Next.js](https://github.com/vercel/next.js)/[Nuxt.js](https://github.com/nuxt/nuxt.js) apps - ⚡️ for web scrapers
 
 ```bash
 npm install parse-hydration-data
